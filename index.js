@@ -1,8 +1,8 @@
 function findMinAndRemove(array){
-  let min = 0;
+  let min = array[0];
   array.filter(int => {
     if (int < min) {
-      min == int;
+      min = int;
     }
   })
   return min;
